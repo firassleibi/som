@@ -1,0 +1,52 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.hutchind.cordova.plugins.streamingmedia": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-media-capture": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "MICROPHONE_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.imockup.allmushtari"
+        }
+    }
+}

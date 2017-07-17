@@ -1,0 +1,48 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.hutchind.cordova.plugins.streamingmedia": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.imockup.arbsuq"
+        }
+    },
+    "dependent_plugins": {}
+}
