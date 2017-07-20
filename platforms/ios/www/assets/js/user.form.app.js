@@ -129,16 +129,16 @@
 												
 											}else{
 												myApp.closeNotification(".notification-item");
-												myApp.addNotification({
+												/*myApp.addNotification({
 													title: 'تم تسجيل عضويتك بنجاح',
 													message: 'لقد تم إرسال رسالة التفعيل إلى جوالك',
 													media: '<i class="fa fa-check-circle"></i>'
-												});
+												});*/
 												
 												$(document).get_user({});
 												
 												mainView.router.loadPage('index.html');
-												myApp.popup('.popup-activation');
+												//myApp.popup('.popup-activation');
 												document.addEventListener('deviceready', onDeviceReady, true);
 											}
 											

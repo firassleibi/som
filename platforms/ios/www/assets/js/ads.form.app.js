@@ -443,6 +443,7 @@
 								Aopj.form.find(".model").empty();
 
                                 if(Aopj.settings.type == 'search' || Aopj.settings.type == 'add' ) {
+									
                                     Aopj.get_elements({type: 'service'});
                                     Aopj.get_elements({type: 'currency_type', text: 'type'});
                                     Aopj.get_elements({type: 'cat'});
@@ -458,7 +459,15 @@
 								if(Aopj.settings.type == 'search' ){
 										Aopj.search();
 								}else if(Aopj.settings.type == 'add' ){
+									
+									
+
+									myApp.popup('.popup-splash');
+									$$('.popup-splash').on('opened', function () {
+										$$('.commission').html(site_settings.commission);
+									});
                                     Aopj.add_ad();
+									
 								}else if(Aopj.settings.type == 'edit' ){
                                     Aopj.get_add({
                                         callback: function (json) {
@@ -762,6 +771,7 @@
 						
 					Aopj=this;
 						Aopj.form.submit(function () {
+							
 							myApp.showIndicator();
 							
 							var url_vid = Aopj.form.find(".video_url").val();
@@ -1133,5 +1143,20 @@
 			
 		}
 	})(jQuery);
+	function checkAdd(){
+		if(localStorage.getItem('logged_in')=='false'){
+				$('.index-bg').removeClass('page-bg');
+				$('.index-bg').removeClass('page-w');
+				$('.tab').removeClass('active');
+				$('.index-bg').addClass('usercp-bg');
+				$('.UserPanel').addClass('active');							
+										
+									}
+									else{
+										mainView.router.loadPage('add.ads.html');
+
+									}
+		
+	}
 	 
 	

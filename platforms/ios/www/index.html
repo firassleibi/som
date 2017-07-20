@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="theme-color" content="#ffffff">
-
+	
     <title>تطبيق سكربت حراج</title>
 
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
@@ -1631,7 +1631,7 @@
 		{{#if results.mtgr_logo}}
 		<div class="user-banner">
 			<span class="ava-box">
-
+				
 				<a href="user.profile.html?user={{results.user_id}}">
 					<img src="{{settings.site_url}}/upload/thumbnail/{{results.mtgr_logo}}" >
 				</a>
@@ -1956,9 +1956,11 @@
                 </div>
                 <div class="center sliding site-name"></div>
                 <div class="right">
-                    <a href="add.ads.html" class="link">
+					
+                    <a href="#" onclick="checkAdd()" class="link">
                         <i class="fa fa-plus"></i>
                     </a>
+					
                 </div>
 		  </div>
 		</div>
@@ -2328,7 +2330,7 @@
 			<!--  <h3>تسجيل دخول الأعضاء</h3> -->
 		</div>
 		<div class="forms mt-50">
-			<form method="post" class="js-msg" novalidate="novalidate">
+			<form method="post" class="js-msg" novalidate>
 
 				<div class="form-row">
 					<div class="input-text">

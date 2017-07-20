@@ -147,6 +147,13 @@
 						data.settings=site_settings;
 						//console.log(data);
 						var HTML = myApp.templates.UserPanelTemplate(data);
+						console.log(data);
+						if (!data.hasOwnProperty('results'))
+							localStorage.setItem('logged_in', false);
+						else
+							localStorage.setItem('logged_in', true);
+						
+						
 						$('.User-Panel').html(HTML);
 						return  data;
 					}else{
@@ -170,6 +177,7 @@
 				type    : 'post',
 				data    :  { logout: "1" },
 				success : function( response ) {
+							localStorage.setItem('logged_in', false);
 							myApp.closeNotification(".notification-item");
 							myApp.addNotification({
 								title: 'تسجيل الخروج',
@@ -178,7 +186,7 @@
 								setTimeout(function () {
 									myApp.closeNotification(".notification-item");
 								}, 2000);
-
+							
 							$(document).get_user({});
 
 						}
